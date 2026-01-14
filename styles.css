@@ -1,0 +1,83 @@
+		body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+        }
+
+        .banner {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .banner p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .club {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+
+        .club h2 {
+            color: #1e90ff;
+        }
+
+        .club img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 15px auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+		/* Thanh menu ngang */
+		.menu-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #1e88e5;
+    padding: 12px 0;
+    gap: 40px;
+}
+
+		.menu-bar a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+		.menu-bar a:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}		.logo-top-right {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 110px;      /* Bạn có thể chỉnh tùy ý */
+    height: auto;
+    z-index: 9999;     /* luôn nổi trên cùng */
+}
+
